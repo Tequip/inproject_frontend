@@ -5,7 +5,6 @@ import { showAuthModal } from "store/reducers/modalsReducer";
 import { logout } from "store/reducers/userReducer";
 import Avatar from "./ui/Avatar";
 import Icon from "./ui/Icon";
-import IconButton from "./ui/IconButton";
 import Nav, { NavRoute } from "./ui/Nav";
 
 const navRoutes: NavRoute[] = [
@@ -41,7 +40,7 @@ const Header: FC = () => {
 						<div className="flex items-center gap-4">
 							<button
 								onClick={() => navigate("/edit_project")}
-								className="bg-accent p-2 flex items-center"
+								className="bg-primary text-background p-2 flex items-center"
 							>
 								<span>Создать проект</span>
 							</button>

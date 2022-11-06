@@ -142,7 +142,6 @@ const AuthModal: FC = () => {
                         className="mt-6 focus:ring-1 focus:outline-none focus:ring-blue-300"
                         loading={loading}
                         disabled={loading}
-                        color="accent"
                         type="submit"
                     >
                         {isRegister ? "Регистрация" : "Вход"}

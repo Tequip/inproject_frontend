@@ -1,7 +1,7 @@
 import { ButtonHTMLAttributes, FC, ForwardedRef, forwardRef, memo, ReactNode } from "react";
 import loadingSVG from "assets/loading.svg";
 
-type size = "default" | "narrow";
+type size = "default" | "narrow" | "big";
 type color = "primary" | "accent" | "secondary";
 
 interface IButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
@@ -32,6 +32,7 @@ export const Button: FC<IButtonProps> = ({
 				className,
 				size === "default" ? "px-4 py-2" : "",
 				size === "narrow" ? "p-2" : "",
+				size === "big" ? "px-8 py-4" : "",
 				color === "primary"
 					? "bg-primary border-primary text-background hover:border-primary disabled:border-primary"
 					: "",

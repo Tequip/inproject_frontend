@@ -26,8 +26,7 @@ const HeroSection: FC = () => {
                 </div>
                 <div className="relative top-[-70px] flex items-end justify-between">
                     <div className="relative flex flex-col items-start gap-4 mb-40">
-                        <Button onClick={showModal} className="z-10" color="accent">вступить в команду</Button>
-                        <Button onClick={showModal} className="z-10" color="secondary">создать проект</Button>
+                        <Button onClick={showModal} className="z-10">вступить в команду</Button>
                         <img
                             width={180}
                             className="absolute top-[-77%] right-0"

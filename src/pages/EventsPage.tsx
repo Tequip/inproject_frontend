@@ -1,13 +1,16 @@
-import { FC } from "react";
+import eventsAPI from "api/eventsAPI";
+import { FC, useEffect, useState } from "react";
 
 interface EventsPageProps {}
 
 const EventsPage: FC<EventsPageProps> = ({}) => {
-    return (
-        <div>
-            EventsPage
-        </div>
-    );
+	const [events, setEvents] = useState();
+
+	// useEffect(() => {
+	// 	eventsAPI.getAllEvents().then((events) => setEvents(events));
+	// }, []);
+
+	return <div>EventsPage</div>;
 };
 
 export default EventsPage;

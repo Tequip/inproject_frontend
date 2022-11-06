@@ -1,5 +1,15 @@
 export type sort = "asc" | "desc" | null;
 
+export interface Event {
+	id: number;
+	name: string;
+	title_photo?: any;
+	locations: Location[];
+	categories: Category[];
+	tags: Tag[];
+	short_about: string;
+}
+
 export interface Image {
 	file: string;
 	filename: string;

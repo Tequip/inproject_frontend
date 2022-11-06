@@ -106,14 +106,14 @@ const ProfilePage: FC<ProfilePageProps> = ({}) => {
 						name="interest"
 						control={control}
 						render={({ field: { onChange, value } }) => (
-							<Select label="Интересы" value={value} onChange={onChange} options={interests} multi full />
+							<Select placeholder="Выберите интересы" label="Интересы" value={value} onChange={onChange} options={interests} multi full />
 						)}
 					/>
 					<Controller
 						name="skill"
 						control={control}
 						render={({ field: { onChange, value } }) => (
-							<Select label="Навыки" value={value} onChange={onChange} options={skills} multi full />
+							<Select placeholder="Выберите навыки" label="Навыки" value={value} onChange={onChange} options={skills} multi full />
 						)}
 					/>
 					<Input {...register("role")} label="Желаемая роль" full />

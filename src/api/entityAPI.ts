@@ -8,7 +8,7 @@ const getTags = async (): Promise<Tag[]> => {
 };
 
 const getCategories = async (): Promise<Category[]> => {
-    const response = await baseAxios.get<Category[]>("/entity/cetegory");
+    const response = await baseAxios.get<Category[]>("/entity/category");
 
     return response.data;
 };

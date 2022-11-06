@@ -3,7 +3,6 @@ import Input from "components/ui/Input";
 import { FC, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { FullProject, Image, Location, Tag } from "types";
-import "react-upload-gallery/dist/style.css";
 import Uploader from "components/ui/Uploader";
 import { Controller, useForm } from "react-hook-form";
 import TagContainer from "components/common/TagContainer";

@@ -10,7 +10,7 @@ interface SelectProps {
 	width?: number;
 	placeholder?: string;
 	value?: any;
-	onChange?: (newValue: any) => void;
+	onChange?: (newValue: any[]) => void;
 	options: any[];
 	multi?: boolean;
 	label?: string;
