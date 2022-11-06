@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# Inproject
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Интерактивня платформа 
+для реализации инновационных идей
+
+<img width="1366" alt="image" src="https://user-images.githubusercontent.com/93822098/200194158-4213af1e-7984-4fe0-81ec-10a28155bec5.png">
+
+## Demo
+http://158.160.16.111/
 
 ## Available Scripts
 
