@@ -1,0 +1,14 @@
+@import './tailwind.css';
+@import './fonts/index.css';
+
+/* Animations */
+@import "./animations/fade.css";
+@import "./animations/rotate.css";
+
+/* Settings */
+@import "./settings/theme.css";
+@import "./settings/base.css";
+
+/* Elements */
+@import "./elements/wrapper.css";
+@import "./elements/dropdown.css";

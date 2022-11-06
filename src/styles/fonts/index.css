@@ -1,0 +1,7 @@
+@font-face {
+    font-family: Practice;
+    font-style: normal;
+    font-weight: 400;
+    src: url('practice/Practice-font.otf') format('opentype'),
+        url('practice/Practice-font-Mono.otf') format('opentype');
+}
